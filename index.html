@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-us" ng-app="cventApp">
+<head>
+<meta charset="UTF-8">
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+<title>Cvent-weather widget</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body ng-controller="cventController">
+
+<!-- weather Widget -->
+<div weather-widget></div>
+
+<!-- Script Start  -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+<script src="app/module/app.js"></script>
+<script src="app/controller/weather-controller.js"></script>
+<script src="app/directive/weather-directive.js"></script>
+<script src="app/services/weather-service.js"></script>
+<!-- Script End -->
+</body>
+</html>
